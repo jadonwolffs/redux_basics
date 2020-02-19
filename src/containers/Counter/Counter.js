@@ -7,7 +7,7 @@ import {
   store,
   add,
   subtract
-} from "../../store/actions";
+} from "../../store/actions/actions";
 import CounterControl from "../../components/CounterControl/CounterControl";
 import CounterOutput from "../../components/CounterOutput/CounterOutput";
 
