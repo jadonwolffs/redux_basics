@@ -3,11 +3,11 @@ import { connect } from "react-redux";
 import {
   increment,
   decrement,
-  del,
-  store,
   add,
   subtract
-} from "../../store/actions/actions";
+} from "../../store/actions/index";
+
+import { del, store } from "../../store/actions/results";
 import CounterControl from "../../components/CounterControl/CounterControl";
 import CounterOutput from "../../components/CounterOutput/CounterOutput";
 
